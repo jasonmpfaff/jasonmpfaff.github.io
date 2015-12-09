@@ -1,5 +1,8 @@
-body{
+/*body{
   margin: 0px; background-color: #222222; overflow: hidden;
+}*/
+body{
+	background-color: white;
 }
 
 h1, p {
