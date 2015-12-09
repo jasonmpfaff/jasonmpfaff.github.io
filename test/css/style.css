@@ -1,0 +1,17 @@
+body{
+  margin: 0px; background-color: #222222; overflow: hidden;
+}
+
+h1, p {
+    color: gray;
+}
+
+h2 {
+	color: black;
+}
+
+#myHeader {
+	font-style: italic;
+}
+
+
