@@ -1,20 +1,62 @@
-/*body{
-  margin: 0px; background-color: #222222; overflow: hidden;
-}*/
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,500);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+
 body{
-	background-color: white;
+  margin: 0px; padding 0px; background-color: black; overflow: hidden;
 }
 
-h1, p {
-    color: gray;
+h1 { 
+	color: white;
+    font-family: Oswald, sans-serif;
+    display: block;
+    font-size: 4.0em;
+    margin-top: 90px;
+    margin-bottom: 0.0em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+p {
+    color: white;
+    font-family: Roboto, Noto, sans-serif;
+    font-weight:400;
+
 }
 
 h2 {
-	color: black;
+	color: gray;
+}
+
+h3 {
+	color: white;
+    font-family: Roboto, Noto, sans-serif;
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0px;
+    margin-bottom: 0.0em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
 }
 
 #myHeader {
 	font-style: italic;
 }
 
+#content {
+  width: 800px ;
+  margin-left: auto ;
+  margin-right: auto ;
+}
 
+nav{
+	color: white;
+	 font-family: Roboto, sans-serif;
+	  font-size: 1em;
+    margin-top: 10px;
+    margin-bottom: 0.0em;
+    margin-left: 0;
+    margin-right: 14;
+    font-weight: light;
+}

@@ -1,15 +1,21 @@
 <html>
 	<head>
-		<title>3D web app</title>
+		<title>COMA</title>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<h1>3D Web App</h1>
+		<nav align= "right">
+  <a href="/html/">Virtual Reality Design</a> |
+  <a href="/css/">3D Website Design</a> |
+  <a href="/js/">Content Marketing</a> |
+  <a href="/jquery/">About</a>
+</nav>
+		<h1 align="center">COde MAchine</h1>
+		<h2 align= "center">Creating a Reality That Is Modern + Virtual</h2>
 		<!-- 	/*<style>
 			body { margin: 0; }
 			canvas { width: 100%; height: 100% }
 		</style>*/ -->
 	</head>
-	<body>
-		<p>Lorem ipsum dolor sit amet, vestibulum bibendum massa etiam nisl, mauris dui amet at wisi placerat, vitae lectus purus aliquam habitasse, turpis aliquam accumsan suspendisse magna, lacus hendrerit libero dui sit vestibulum mauris. Sem morbi praesent suscipit quis sodales quis, magnam aliquam leo at, porttitor pede ligula lectus. Et proin integer eros adipiscing augue, dui eget aliquet, a et quam tellus. Purus at vivamus est mattis per quis, viverra pellentesque rhoncus sapien nam, metus ac nunc arcu rhoncus commodo velit. Pede ornare, maecenas sed eget. Feugiat auctor consectetuer, ante suspendisse, cras vehicula fusce enim elit posuere metus. Ac non wisi.</p>
+	<body align= "center">
 		<script src="js/three.min.js"></script>
 		<script src='http://jeromeetienne.github.io/threex.terrain/examples/vendor/three.js/build/three-min.js'></script>
 <script src='http://jeromeetienne.github.io/threex.terrain/examples/vendor/three.js/examples/js/SimplexNoise.js'></script>
@@ -58,10 +64,10 @@ var renderer	= new THREE.WebGLRenderer({
 	mesh.scale.y	= 3.5;
 	mesh.scale.x	= 3;
 	mesh.scale.z	= 0.20;
-	mesh.scale.multiplyScalar(10);
+	mesh.scale.multiplyScalar(45);
 /* Slowly spin it around so that it doesn't look bland */
 	onRenderFcts.push(function(delta, now){
-		mesh.rotation.z += 0.2 * delta;	
+		mesh.rotation.z += 0.05 * delta;	
 	})
 	onRenderFcts.push(function(){
 		renderer.render( scene, camera );		
