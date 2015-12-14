@@ -5,17 +5,6 @@ body{
   margin: 0px; padding 0px; background-color: black; overflow: hidden;
 }
 
-/*nav{
-	color: gray;
-	 font-family: Roboto, sans-serif;
-	  font-size: 1em;
-    margin-top: 10px;
-    margin-bottom: 0.0em;
-    margin-left: 0;
-    margin-right: 14;
-    font-weight: light;
-}*/
-
 ul {
    
 	 font-family: Roboto, sans-serif;
@@ -61,13 +50,24 @@ h1 {
 
 p {
     color: white;
-    font-family: Roboto, Noto, sans-serif;
+    font-family: Roboto, Noto, serif;
     font-weight:400;
 
 }
 
 h2 {
 	color: gray;
+    font-family: Roboto, Noto, sans-serif;
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0px;
+    margin-bottom: 0.0em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+
 }
 
 h3 {
