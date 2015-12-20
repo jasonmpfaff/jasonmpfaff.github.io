@@ -15,6 +15,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
+/*    background-color: #E8C66A;*/
 }
 
 li {
@@ -35,7 +36,37 @@ li a:hover {
     background-color: #111;
 }
 
+.column {
+    float: left;
+    width: 415px;
+    height: 500px;
+    padding: 20px;
+    margin: 0;
+}
 
+.column h2 {
+    text-align: center;
+}
+
+#column1{
+
+    background-color: aqua;
+    height: 400;
+}
+
+#column2{
+    background-color: aqua;
+    height: 400;
+}
+
+#column3{
+    background-color: aqua;
+    height: 400;
+}
+
+#aboutp {
+    color: gray;
+}
 
 h1 { 
 	color: white;
@@ -46,17 +77,39 @@ h1 {
     margin-bottom: 0.0em;
     margin-left: 0;
     margin-right: 0;
+   /* background-color: #FFED74*/
 }
 
 #about { 
 	color: white;
     font-family: Oswald, sans-serif;
     display: block;
+    text-align: center;
     font-size: 3.5em;
-    margin-top: 40px;
+    margin-top: 10px;
     margin-bottom: .8em;
     margin-left: 0;
     margin-right: 0;
+}
+
+#abouth2 {
+
+text-align: center;
+color: black;
+
+}
+
+#aboutsec {
+    background-color: gray
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: "";
+    clear: both;
+    height: 0;
 }
 
 p {
@@ -68,7 +121,7 @@ p {
 
 h2 {
 	color: gray;
-    font-family: Roboto, Noto, sans-serif;
+    font-family: Roboto, Noto, serif;
     display: block;
     font-size: 1.5em;
     margin-top: 0px;
@@ -76,14 +129,14 @@ h2 {
     margin-left: 0;
     margin-right: 0;
     padding: 5px;
-    font-weight: bold;
+    font-weight: 100;
 }
 
 }
 
 h3 {
 	color: white;
-    font-family: Roboto, Noto, sans-serif;
+    font-family: Roboto, Noto, serif;
     display: block;
     font-size: 1.5em;
     margin-top: 0px;
