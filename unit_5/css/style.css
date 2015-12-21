@@ -47,18 +47,18 @@ li a:hover {
 
 
     #buttons {
-      margin-left: 100px;
+      margin-left: 20px;
     }
     
-    buttons > * {
+/*    #buttons > * {
       margin: 10px
-    }
+    }*/
     
  
     .button {
       display: inline-block;
       position: relative;
-      width: 320px;
+      width: 410px;
       height: 32px;
       line-height: 32px;
       border-radius: 2px;
