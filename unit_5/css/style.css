@@ -34,7 +34,8 @@ li {
 li a {
     	 font-family: Roboto, sans-serif;
     display: block;
-    color: gray;
+    color: 00C5BE;
+    font-weight: 900;
     text-align: center;
     padding: 8px 12px;
     text-decoration: none;
@@ -58,7 +59,7 @@ li a:hover {
     .button {
       display: inline-block;
       position: relative;
-      width: 420px;
+      width: 418px;
       height: 32px;
       line-height: 32px;
       border-radius: 2px;
@@ -80,14 +81,16 @@ li a:hover {
     .button.blue {
       background-color: #4285f4;
       color: #fff;
+      margin-left: 5px;
     }
     
     .button.green {
       background-color: #297891;
       color: #fff;
+      margin-left: 10px
     }
 
-   .button.green {
+   .button.green2 {
       background-color: #297891;
       color: #fff;
     }
@@ -148,13 +151,13 @@ h3 {
 
 
 #about { 
-    color: 00A4D1;
+    color: 00846F;
     font-family: Oswald, sans-serif;
     display: block;
     text-align: center;
     font-size: 3.5em;
-    margin-top: 10px;
-    margin-bottom: .8em;
+    margin-top: 5px;
+    margin-bottom: .5em;
     margin-left: 0;
     margin-right: 0;
 }
@@ -164,16 +167,22 @@ h3 {
     font-family: Oswald, sans-serif;
     display: block;
     text-align: center;
-    font-size: 3.5em;
-    margin-top: 10px;
+    font-size: 3em;
+    margin-top: 5px;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
 }
 
 #content2 {
+font-size: 1.5em;
+    padding-bottom: 10px;
+}
 
-    padding-bottom: 20px;
+#vrd {
+    color: gray;
+    margin-left: 100;
+    margin-right: 100;
 }
 
 
@@ -299,8 +308,8 @@ h3 {
 .imgWrap {
     float: left;
   position: relative;
-  height: 415px;
-  width: 430px;
+  height: 325px;
+  width: 440px;
 }
 
 .imgDescription {
@@ -318,7 +327,7 @@ h3 {
                                                              padding-right: 10px;
                                                              padding-top: 10px;
                                                              padding-bottom: 10px;
-                                                            margin-top: 40px;
+                                                            margin-top: 20px;
                                                             margin-bottom: 0.0em;
                                                             margin-left: 10;
                                                             margin-right:10;                                                      
