@@ -225,6 +225,7 @@ h3 {
 /*tiles for content page*/
 
 .imgWrap {
+    float: left;
   position: relative;
   height: 415px;
   width: 500px;
