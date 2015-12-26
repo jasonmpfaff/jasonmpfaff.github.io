@@ -14,9 +14,9 @@ body{
 
 ul {
    
-   font-family: Roboto, sans-serif;
-   font-size: .8em;
-   color: gray;
+	 font-family: Roboto, sans-serif;
+	 font-size: .8em;
+	 color: gray;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -32,7 +32,7 @@ li {
 }
 
 li a {
-       font-family: Roboto, sans-serif;
+    	 font-family: Roboto, sans-serif;
     display: block;
     color: #00BCD4;
     font-weight: 900;
@@ -367,7 +367,6 @@ font-size: 1.5em;
                                                             clear: both;
                                                             height: 0;
                                                         }
-
 
 
 
