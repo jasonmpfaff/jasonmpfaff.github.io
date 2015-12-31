@@ -15,7 +15,7 @@ body{
 ul {
    
    font-family: Roboto, sans-serif;
-   font-size: .8em;
+   font-size: 1.8em;
    color: gray;
     list-style-type: none;
     margin: 0;
@@ -367,7 +367,7 @@ font-size: 1.5em;
                                                             clear: both;
                                                             height: 0;
                                                         }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 800px) {
   ul,li {
     float: none;
     width: auto;
