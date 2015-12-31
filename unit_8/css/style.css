@@ -15,7 +15,7 @@ body{
 ul {
    
    font-family: Roboto, sans-serif;
-   font-size: 1.8em;
+   font-size: 1.0em;
    color: gray;
     list-style-type: none;
     margin: 0;
@@ -107,8 +107,8 @@ h1 {
     color: #009688;
     font-family: Oswald, sans-serif;
     display: block;
-    font-size: 4.5em;
-    margin-top: 40px;
+    font-size: 4em;
+    margin-top: 20px;
     margin-bottom: 0.0em;
     margin-left: 0;
     margin-right: 0;
@@ -137,12 +137,12 @@ h2 {
     color: gray;
     font-family: Roboto, Noto, serif;
     display: block;
-    font-size: 1.5em;
+    font-size: 1.2em;
     margin-top: 0px;
     margin-bottom: 0.0em;
     margin-left: 0;
     margin-right: 0;
-    padding: 5px;
+    padding: 0px;
     font-weight: 100;
 }
 
@@ -373,6 +373,5 @@ font-size: 1.5em;
     width: auto;
   }
 }
-
 
 
