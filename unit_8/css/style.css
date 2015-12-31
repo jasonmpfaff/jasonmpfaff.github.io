@@ -370,7 +370,7 @@ font-size: 1.5em;
 @media only screen and (max-width: 580px) {
   ul,li {
     float: none;
-    width: none;
+    width: auto;
   }
 }
 
