@@ -368,7 +368,7 @@ font-size: 1.5em;
                                                             height: 0;
                                                         }
 @media only screen and (max-width: 480px) {
-  ul,li {
+  ul,li,#conbody {
     float: none;
     width: auto;
   }
